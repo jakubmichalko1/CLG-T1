@@ -1,0 +1,19 @@
+body {
+    background-color: black;
+    background-image: src="img/nevim.jpg";
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+h1 {
+    color: rgb(255, 248, 188);
+    color: linear-gradient(90deg, rgba(255, 248, 188, 1) 0%, rgba(255, 182, 182, 1) 23%, rgba(198, 123, 187, 1) 48%, rgba(155, 182, 199, 1) 72%, rgba(191, 255, 255, 1) 100%);
+    font-size: 2em;
+    font-family: idk;
+}
+
+h2 {
+    color: #e7ebeb;
+    font-size: 125%;
+    font-family: idk;
+}
