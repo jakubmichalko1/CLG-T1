@@ -1,21 +1,37 @@
 body {
     background-color: black;
-    background-image: src="img/nevim.jpg";
-    background-repeat: no-repeat;
+    background-image: url(pozadi.jpg);
     background-size: 100%;
 }
 
 h1 {
-    color: rgb(255, 248, 188);
-    color: linear-gradient(90deg, rgba(255, 248, 188, 1) 0%, rgba(255, 182, 182, 1) 23%, rgba(198, 123, 187, 1) 48%, rgba(155, 182, 199, 1) 72%, rgba(191, 255, 255, 1) 100%);
-    font-size: 2em;
-    font-family: idk;
+    background: -webkit-linear-gradient(30deg, rgba(255, 248, 188, 1) 0%, rgba(255, 182, 182, 1) 23%, rgba(198, 123, 187, 1) 48%, rgba(155, 182, 199, 1) 72%, rgba(191, 255, 255, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 4em;
+    font-family: "verdana", "sans-serif";
+    font-variant: small-caps;
     text-align: center;
-
 }
 
 h2 {
     color: #e7ebeb;
     font-size: 125%;
-    font-family: idk;
+    font-family: "noticia text", "sans-sefif"
+}
+
+#soustava_planet {
+    align-items: center;
+    margin-left: 12%;
+    border: 10px;
+    border-style: solid;
+    border-color: #e7ebeb;
+
+
+}
+
+p {
+    color: #e7ebeb;
+    font-size: 125%;
+    font-family: "noticia text", "sans-sefif";
 }
