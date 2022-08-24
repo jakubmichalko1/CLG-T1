@@ -25,6 +25,7 @@ h2 {
 #soustava_planet {
     align-items: center;
     width: 100vw;
+    height: 48vw;
     border: 10px;
     border-style: solid;
     border-color: #e7ebeb;
@@ -79,23 +80,21 @@ h3 {
 #merkur_p {
     position: absolute;
     left: 9.6vw;
-    top: 94vh;
-    transition: 0.7s ease;
+    top: 21.4vw;
     transform: scale(1.35);
 }
 
 #venuse_p {
     position: absolute;
     left: 15.2vw;
-    top: 91vh;
-    transition: 0.7s ease;
+    top: 20.4vw;
     transform: scale(1.35);
 }
 
 #zeme_p {
     position: absolute;
     left: 22.8vw;
-    top: 91vh;
+    top: 20.4vw;
     transition: 0.7s ease;
     transform: scale(1.35);
 }
@@ -103,7 +102,7 @@ h3 {
 #mars_p {
     position: absolute;
     left: 30.5vw;
-    top: 93.4vh;
+    top: 22vw;
     transition: 0.7s ease;
     transform: scale(1.35);
 }
@@ -111,7 +110,7 @@ h3 {
 #jupiter_p {
     position: absolute;
     left: 37.6vw;
-    top: 82vh;
+    top: 20vw;
     transition: 0.7s ease;
     transform: scale(1.35);
 }
@@ -119,7 +118,7 @@ h3 {
 #saturn_p {
     position: absolute;
     left: 58vw;
-    top: 74.5vh;
+    top: 20vw;
     transition: 0.7s ease;
     transform: scale(1.35);
 }
@@ -127,7 +126,7 @@ h3 {
 #uran_p {
     position: absolute;
     left: 76vw;
-    top: 88.5vh;
+    top: 20vw;
     transition: 0.7s ease;
     transform: scale(1.35);
 }
@@ -135,10 +134,20 @@ h3 {
 #neptun_p {
     position: absolute;
     left: 88vw;
-    top: 88.6vh;
+    top: 20vw;
     transition: 0.7s ease;
     transform: scale(1.35);
 }
+
+.soustava {
+    height: 48vw;
+    position: relative;
+}
+
+.soustava>a {
+    top: 20vw;
+}
+
 
 
 #merkur_p:hover,
