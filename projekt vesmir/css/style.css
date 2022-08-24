@@ -43,6 +43,8 @@ p{text-indent: 4%;}
 
 h3 {
     font-size: 135%;
+    color: #e7ebeb;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #uvod1,
@@ -68,6 +70,8 @@ h3 {
 
 .ods {
     margin-left: 5%;
+    margin-right: 65%;
+    margin-top: -10%;
 }
 .pismo{margin: 2% 5%;
     text-align: justify;}
@@ -164,7 +168,7 @@ h3 {
 }
 
 #jupiter_n {
-    color: #1c2f41;
+    color: #e3dedb;
 }
 
 #mesic_n {
@@ -174,10 +178,13 @@ h3 {
 #saturn_n {
     color: #b5906a;
 }
+#mars_n{color: #cf8549;}
 
 #slunce_n {
     background: -webkit-linear-gradient(30deg, rgba(240, 41, 9, 1) 30%, rgba(0, 0, 0, 1) 68%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+#lv_n {color: #9cc2e3;}
+#meteory_n{color: #241f6f;}
 /* color: #ff9d3a; */
