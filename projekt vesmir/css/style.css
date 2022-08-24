@@ -4,6 +4,7 @@ body {
     background-size: 100%;
 }
 
+
 h1 {
     background: -webkit-linear-gradient(30deg, rgba(255, 248, 188, 1) 0%, rgba(255, 182, 182, 1) 23%, rgba(198, 123, 187, 1) 48%, rgba(155, 182, 199, 1) 72%, rgba(191, 255, 255, 1) 100%);
     -webkit-background-clip: text;
@@ -15,9 +16,10 @@ h1 {
 }
 
 h2 {
-    color: #e7ebeb;
-    font-size: 135%;
-    font-family: Georgia, 'Times New Roman', Times, serif
+    text-align: center;
+    color: #ff9d3a;
+    font-size: 5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #soustava_planet {
@@ -31,18 +33,37 @@ h2 {
 }
 
 p,
-ul {
+ul,
+h3 {
     color: #e7ebeb;
     font-size: 125%;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h3 {
+    font-size: 135%;
 }
 
 .tabulka {
     color: #e7ebeb;
     font-size: 125%;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 30vw;
+    height: 15vh;
+    margin-left: 5%;
 
 }
+
+.ods {
+    margin-left: 5%;
+}
+
+.text {
+    margin-left: 40%;
+    margin-right: 10%;
+    margin-top: -110px;
+}
+
 
 #merkur_p {
     position: absolute;
