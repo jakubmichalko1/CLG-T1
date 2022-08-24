@@ -16,7 +16,7 @@ h1 {
 
 h2 {
     color: #e7ebeb;
-    font-size: 125%;
+    font-size: 135%;
     font-family: "noticia text", "sans-sefif"
 }
 
@@ -30,8 +30,55 @@ h2 {
 
 }
 
-p {
+p,
+ul {
     color: #e7ebeb;
     font-size: 125%;
     font-family: "noticia text", "sans-sefif";
+}
+
+.tabulka {
+    color: #e7ebeb;
+    font-size: 125%;
+    font-family: "noticia text", "sans-sefif";
+}
+
+#merkur_p {
+    position: absolute;
+    left: 244px;
+    top: 433px;
+    transition: 0.7s ease;
+}
+
+#venuse_p {
+    position: absolute;
+    left: 294px;
+    top: 419px;
+    transition: 0.7s ease;
+}
+
+#zeme_p {
+    position: absolute;
+    left: 370px;
+    top: 417px;
+    transition: 0.7s ease;
+}
+
+#mars_p {
+    position: absolute;
+    left: 500px;
+    top: 404px;
+    transition: 0.7s ease;
+}
+
+#merkur_p:hover,
+#venuse_p:hover,
+#zeme_p:hover,
+#mars_p:hover,
+#jupiter_p:hover,
+#saturn_p:hover,
+#uran_p:hover,
+#neptun_p:hover {
+    transition: 0.7s ease;
+    transform: scale(1.3);
 }
