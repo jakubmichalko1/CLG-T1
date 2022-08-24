@@ -63,15 +63,47 @@ ul {
 #zeme_p {
     position: absolute;
     left: 22.8vw;
-    top: 84.6vh;
+    top: 84.1vh;
     transition: 0.7s ease;
     transform: scale(1.35);
 }
 
 #mars_p {
     position: absolute;
-    left: 500px;
-    top: 404px;
+    left: 30.5vw;
+    top: 86.1vh;
+    transition: 0.7s ease;
+    transform: scale(1.35);
+}
+
+#jupiter_p {
+    position: absolute;
+    left: 37.6vw;
+    top: 76vh;
+    transition: 0.7s ease;
+    transform: scale(1.35);
+}
+
+#saturn_p {
+    position: absolute;
+    left: 58vw;
+    top: 66vh;
+    transition: 0.7s ease;
+    transform: scale(1.35);
+}
+
+#uran_p {
+    position: absolute;
+    left: 76vw;
+    top: 81.9vh;
+    transition: 0.7s ease;
+    transform: scale(1.35);
+}
+
+#neptun_p {
+    position: absolute;
+    left: 88vw;
+    top: 81.9vh;
     transition: 0.7s ease;
     transform: scale(1.35);
 }
