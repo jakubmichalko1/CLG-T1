@@ -179,11 +179,13 @@ h3 {
     color: #b5906a;
 }
 #mars_n{color: #cf8549;}
+#souh_n{color: rgb(255, 131, 126);}
 
 #slunce_n {
-    background: -webkit-linear-gradient(30deg, rgba(240, 41, 9, 1) 30%, rgba(0, 0, 0, 1) 68%);
+    background: -webkit-linear-gradient(30deg, rgba(240, 41, 9, 1) 30%, rgba(0, 0, 0, 1) 90%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    margin-right: 60%;
 }
 #lv_n {color: #9cc2e3;}
 #meteory_n{color: #241f6f;}
