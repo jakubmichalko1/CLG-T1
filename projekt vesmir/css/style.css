@@ -34,7 +34,7 @@ h2 {
 
 p,
 ul,
-h3 {
+h2 {
     color: #e7ebeb;
     font-size: 125%;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -42,101 +42,111 @@ h3 {
 
 h3 {
     font-size: 135%;
-}
 
-.tabulka {
-    color: #e7ebeb;
-    font-size: 125%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    width: 30vw;
-    height: 15vh;
-    margin-left: 5%;
+    #uvod1,
+    #uvod2 {
+        margin: 5%;
+        text-align: center;
+    }
 
-}
+    #uvod2 {
+        margin-top: 2%;
+        >>>>>>>Stashed changes
+    }
 
-.ods {
-    margin-left: 5%;
-}
+    .tabulka {
+        color: #e7ebeb;
+        font-size: 125%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        width: 30vw;
+        height: 15vh;
+        margin-left: 5%;
 
-.text {
-    margin-left: 40%;
-    margin-right: 10%;
-    margin-top: -110px;
-}
+    }
+
+    .ods {
+        margin-left: 5%;
+    }
+
+    .text {
+        margin-left: 40%;
+        margin-right: 10%;
+        margin-top: -110px;
+    }
 
 
-#merkur_p {
-    position: absolute;
-    left: 9.6vw;
-    top: 94vh;
-    transition: 0.7s ease;
-    transform: scale(1.35);
-}
+    #merkur_p {
+        position: absolute;
+        left: 9.6vw;
+        top: 94vh;
+        transition: 0.7s ease;
+        transform: scale(1.35);
+    }
 
-#venuse_p {
-    position: absolute;
-    left: 15.2vw;
-    top: 91vh;
-    transition: 0.7s ease;
-    transform: scale(1.35);
-}
+    #venuse_p {
+        position: absolute;
+        left: 15.2vw;
+        top: 91vh;
+        transition: 0.7s ease;
+        transform: scale(1.35);
+    }
 
-#zeme_p {
-    position: absolute;
-    left: 22.8vw;
-    top: 91vh;
-    transition: 0.7s ease;
-    transform: scale(1.35);
-}
+    #zeme_p {
+        position: absolute;
+        left: 22.8vw;
+        top: 91vh;
+        transition: 0.7s ease;
+        transform: scale(1.35);
+    }
 
-#mars_p {
-    position: absolute;
-    left: 30.5vw;
-    top: 93.4vh;
-    transition: 0.7s ease;
-    transform: scale(1.35);
-}
+    #mars_p {
+        position: absolute;
+        left: 30.5vw;
+        top: 93.4vh;
+        transition: 0.7s ease;
+        transform: scale(1.35);
+    }
 
-#jupiter_p {
-    position: absolute;
-    left: 37.6vw;
-    top: 82vh;
-    transition: 0.7s ease;
-    transform: scale(1.35);
-}
+    #jupiter_p {
+        position: absolute;
+        left: 37.6vw;
+        top: 82vh;
+        transition: 0.7s ease;
+        transform: scale(1.35);
+    }
 
-#saturn_p {
-    position: absolute;
-    left: 58vw;
-    top: 74.5vh;
-    transition: 0.7s ease;
-    transform: scale(1.35);
-}
+    #saturn_p {
+        position: absolute;
+        left: 58vw;
+        top: 74.5vh;
+        transition: 0.7s ease;
+        transform: scale(1.35);
+    }
 
-#uran_p {
-    position: absolute;
-    left: 76vw;
-    top: 88.5vh;
-    transition: 0.7s ease;
-    transform: scale(1.35);
-}
+    #uran_p {
+        position: absolute;
+        left: 76vw;
+        top: 88.5vh;
+        transition: 0.7s ease;
+        transform: scale(1.35);
+    }
 
-#neptun_p {
-    position: absolute;
-    left: 88vw;
-    top: 88.6vh;
-    transition: 0.7s ease;
-    transform: scale(1.35);
-}
+    #neptun_p {
+        position: absolute;
+        left: 88vw;
+        top: 88.6vh;
+        transition: 0.7s ease;
+        transform: scale(1.35);
+    }
 
-#merkur_p:hover,
-#venuse_p:hover,
-#zeme_p:hover,
-#mars_p:hover,
-#jupiter_p:hover,
-#saturn_p:hover,
-#uran_p:hover,
-#neptun_p:hover {
-    transition: 0.7s ease;
-    transform: scale(1.6);
-}
+    #merkur_p:hover,
+    #venuse_p:hover,
+    #zeme_p:hover,
+    #mars_p:hover,
+    #jupiter_p:hover,
+    #saturn_p:hover,
+    #uran_p:hover,
+    #neptun_p:hover {
+        transition: 0.7s ease;
+        transform: scale(1.6);
+    }
