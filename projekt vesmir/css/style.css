@@ -180,6 +180,7 @@ h3 {
 }
 #mars_n{color: #cf8549;}
 #souh_n{color: rgb(255, 131, 126);}
+#venuse_n{color: #9c6538;}
 
 #slunce_n {
     background: -webkit-linear-gradient(30deg, rgba(240, 41, 9, 1) 30%, rgba(0, 0, 0, 1) 90%);
@@ -189,4 +190,5 @@ h3 {
 }
 #lv_n {color: #9cc2e3;}
 #meteory_n{color: #241f6f;}
+#zeme_n{color: #2241ca;}
 /* color: #ff9d3a; */
