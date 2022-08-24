@@ -34,7 +34,7 @@ h2 {
 
 p,
 ul,
-h3 {
+h2 {
     color: #e7ebeb;
     font-size: 125%;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -42,6 +42,17 @@ h3 {
 
 h3 {
     font-size: 135%;
+}
+
+#uvod1,
+#uvod2 {
+    margin: 5%;
+    text-align: center;
+}
+
+#uvod2 {
+    margin-top: 2%;
+
 }
 
 .tabulka {
@@ -67,8 +78,8 @@ h3 {
 
 #merkur_p {
     position: absolute;
-    left: 9.8vw;
-    top: 86.6vh;
+    left: 9.6vw;
+    top: 94vh;
     transition: 0.7s ease;
     transform: scale(1.35);
 }
@@ -76,7 +87,7 @@ h3 {
 #venuse_p {
     position: absolute;
     left: 15.2vw;
-    top: 84.6vh;
+    top: 91vh;
     transition: 0.7s ease;
     transform: scale(1.35);
 }
@@ -84,7 +95,7 @@ h3 {
 #zeme_p {
     position: absolute;
     left: 22.8vw;
-    top: 84.1vh;
+    top: 91vh;
     transition: 0.7s ease;
     transform: scale(1.35);
 }
@@ -92,7 +103,7 @@ h3 {
 #mars_p {
     position: absolute;
     left: 30.5vw;
-    top: 86.1vh;
+    top: 93.4vh;
     transition: 0.7s ease;
     transform: scale(1.35);
 }
@@ -100,7 +111,7 @@ h3 {
 #jupiter_p {
     position: absolute;
     left: 37.6vw;
-    top: 76vh;
+    top: 82vh;
     transition: 0.7s ease;
     transform: scale(1.35);
 }
@@ -108,7 +119,7 @@ h3 {
 #saturn_p {
     position: absolute;
     left: 58vw;
-    top: 66vh;
+    top: 74.5vh;
     transition: 0.7s ease;
     transform: scale(1.35);
 }
@@ -116,7 +127,7 @@ h3 {
 #uran_p {
     position: absolute;
     left: 76vw;
-    top: 81.9vh;
+    top: 88.5vh;
     transition: 0.7s ease;
     transform: scale(1.35);
 }
@@ -124,10 +135,11 @@ h3 {
 #neptun_p {
     position: absolute;
     left: 88vw;
-    top: 81.9vh;
+    top: 88.6vh;
     transition: 0.7s ease;
     transform: scale(1.35);
 }
+
 
 #merkur_p:hover,
 #venuse_p:hover,
