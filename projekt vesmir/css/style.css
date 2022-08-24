@@ -22,7 +22,7 @@ h2 {
 
 #soustava_planet {
     align-items: center;
-    margin-left: 12%;
+    width: 100vw;
     border: 10px;
     border-style: solid;
     border-color: #e7ebeb;
@@ -45,23 +45,26 @@ ul {
 
 #merkur_p {
     position: absolute;
-    left: 244px;
-    top: 433px;
+    left: 9.8vw;
+    top: 86.6vh;
     transition: 0.7s ease;
+    transform: scale(1.35);
 }
 
 #venuse_p {
     position: absolute;
-    left: 294px;
-    top: 419px;
+    left: 15.2vw;
+    top: 84.6vh;
     transition: 0.7s ease;
+    transform: scale(1.35);
 }
 
 #zeme_p {
     position: absolute;
-    left: 370px;
-    top: 417px;
+    left: 22.8vw;
+    top: 84.6vh;
     transition: 0.7s ease;
+    transform: scale(1.35);
 }
 
 #mars_p {
@@ -69,6 +72,7 @@ ul {
     left: 500px;
     top: 404px;
     transition: 0.7s ease;
+    transform: scale(1.35);
 }
 
 #merkur_p:hover,
@@ -80,5 +84,5 @@ ul {
 #uran_p:hover,
 #neptun_p:hover {
     transition: 0.7s ease;
-    transform: scale(1.3);
+    transform: scale(1.6);
 }
