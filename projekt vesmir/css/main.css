@@ -1,0 +1,222 @@
+body {
+    background-color: black;
+    background-image: url(pozadi.jpg);
+    background-size: 100%;
+}
+
+
+h1 {
+    background: -webkit-linear-gradient(30deg, rgba(255, 248, 188, 1) 0%, rgba(255, 182, 182, 1) 23%, rgba(198, 123, 187, 1) 48%, rgba(155, 182, 199, 1) 72%, rgba(191, 255, 255, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 4em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-variant: small-caps;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 4em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#soustava_planet {
+    align-items: center;
+    width: 100vw;
+    height: 48vw;
+    border: 10px;
+    border-style: solid;
+    border-color: #e7ebeb;
+
+
+}
+
+
+p,
+ul,
+ol {
+    color: #e7ebeb;
+    font-size: 125%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p {
+    text-indent: 4%;
+}
+
+h3 {
+    font-size: 135%;
+    color: #e7ebeb;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#uvod1,
+#uvod2 {
+    margin: 5%;
+    text-align: center;
+}
+
+#uvod2 {
+    margin-top: 2%;
+
+}
+
+.tabulka {
+    color: #e7ebeb;
+    font-size: 125%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 30vw;
+    height: 15vh;
+    margin-left: 5%;
+
+}
+
+.ods {
+    margin-left: 5%;
+    margin-right: 65%;
+    margin-top: -10%;
+}
+
+.pismo {
+    margin: 2% 5%;
+    text-align: justify;
+}
+
+.text {
+    text-align: justify;
+    margin-left: 40%;
+    margin-right: 10%;
+    margin-top: -110px;
+}
+
+
+#merkur_p {
+    position: absolute;
+    left: 9.6vw;
+    top: 22vw;
+    transform: scale(1.35);
+}
+
+#venuse_p {
+    position: absolute;
+    left: 14.6vw;
+    top: 21.0vw;
+    transform: scale(1);
+}
+
+#zeme_p {
+    position: absolute;
+    left: 21.8vw;
+    top: 20.8vw;
+    transition: 0.7s ease;
+    transform: scale(1.1);
+}
+
+
+#mars_p {
+    position: absolute;
+    left: 30.5vw;
+    top: 22vw;
+    transform: scale(1.35);
+}
+
+#jupiter_p {
+    position: absolute;
+    left: 37.6vw;
+    top: 20vw;
+    transform: scale(1.35);
+}
+
+#saturn_p {
+    position: absolute;
+    left: 58vw;
+    top: 20vw;
+    transform: scale(1.35);
+}
+
+#uran_p {
+    position: absolute;
+    left: 76vw;
+    top: 20vw;
+    transform: scale(1.35);
+}
+
+#neptun_p {
+    position: absolute;
+    left: 88vw;
+    top: 20vw;
+    transform: scale(1.35);
+}
+
+.soustava {
+    height: 48vw;
+    position: relative;
+}
+
+.soustava>a {
+    top: 20vw;
+}
+
+
+
+#merkur_p:hover,
+#venuse_p:hover,
+#zeme_p:hover,
+#mars_p:hover,
+#jupiter_p:hover,
+#saturn_p:hover,
+#uran_p:hover,
+#neptun_p:hover {
+    transition: 0.7s ease;
+    transform: scale(1.6);
+}
+
+#merkur_n {
+    color: #989796;
+}
+
+#jupiter_n {
+    color: #e3dedb;
+}
+
+#mesic_n {
+    color: #e1e4e7;
+}
+
+#saturn_n {
+    color: #b5906a;
+}
+
+#mars_n {
+    color: #cf8549;
+}
+
+#souh_n {
+    color: rgb(255, 131, 126);
+}
+
+#venuse_n {
+    color: #9c6538;
+}
+
+#slunce_n {
+    background: -webkit-linear-gradient(30deg, rgba(240, 41, 9, 1) 30%, rgba(0, 0, 0, 1) 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-right: 60%;
+}
+
+#lv_n {
+    color: #9cc2e3;
+}
+
+#meteory_n {
+    color: #241f6f;
+}
+
+#zeme_n {
+    color: #2241ca;
+}
+
+/* color: #ff9d3a; */
