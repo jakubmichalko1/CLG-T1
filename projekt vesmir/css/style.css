@@ -140,6 +140,8 @@ h3 {
     transform: scale(1.35);
 }
 
+
+
 #merkur_p:hover,
 #venuse_p:hover,
 #zeme_p:hover,
@@ -152,6 +154,30 @@ h3 {
     transform: scale(1.6);
 }
 
+
 #home {
     width: 3vw;
+}
+
+#merkur_n {
+    color: #989796;
+}
+
+#jupiter_n {
+    color: #1c2f41;
+}
+
+#mesic_n {
+    color: #e1e4e7;
+}
+
+#saturn_n {
+    color: #b5906a;
+}
+
+#slunce_n {
+    background: -webkit-linear-gradient(30deg, rgba(240, 41, 9, 1) 30%, rgba(0, 0, 0, 1) 68%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
 }
