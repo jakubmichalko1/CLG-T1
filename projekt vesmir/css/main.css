@@ -231,4 +231,22 @@ h3 {
     color: #2241ca;
 }
 
+#insta {
+    width: 5vw;
+    height: 10vh;
+    margin: 2%;
+}
+
+.footer {
+    height: 20vh;
+    width: 100%;
+    background-color: black;
+    padding-bottom: 0%;
+}
+
+.kontakty {
+    margin-top: -5%;
+    text-align: center;
+}
+
 /* color: #ff9d3a; */
