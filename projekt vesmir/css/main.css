@@ -123,28 +123,28 @@ h3 {
 
 #jupiter_p {
     position: absolute;
-    left: 35.5vw;
-    top: 15vw;
+    left: 37.9vw;
+    top: 16vw;
     transform: scale(1);
 }
 
 #saturn_p {
     position: absolute;
-    left: 55.9vw;
-    top: 9vw;
+    left: 56.9vw;
+    top: 12vw;
     transform: scale(1);
 }
 
 #uran_p {
     position: absolute;
     left: 74.6vw;
-    top: 17.6vw;
+    top: 18.5vw;
     transform: scale(1);
 }
 
 #neptun_p {
     position: absolute;
-    left: 86.9vw;
+    left: 89vw;
     top: 18.5vw;
     transform: scale(1);
 }
